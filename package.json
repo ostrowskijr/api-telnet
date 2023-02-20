@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "API client para comunicação web via TelNet.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostrowskijr/api-telnet.git"
+  },
+  "author": "Luis A Ostrowski Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ostrowskijr/api-telnet/issues"
+  },
+  "homepage": "https://github.com/ostrowskijr/api-telnet#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "telnet-client": "^2.0.8"
+  }
+}
